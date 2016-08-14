@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:ignore="UnusedAttribute"
+    >
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:background="#c8ab83"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:singleLine="false"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:text="@string/link"
+        android:autoLink="web"
+        android:id="@+id/link"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:singleLine="false"
+        android:id="@+id/textView1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_centerInParent="true"
+        />
+
+        <ImageView
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:layout_width="350dp"
+            android:src="@drawable/img1"
+            android:id="@+id/image1"
+            android:cropToPadding="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:singleLine="false"
+            android:id="@+id/textView2"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_centerInParent="true"
+            />
+    </LinearLayout>
+
+</ScrollView>
